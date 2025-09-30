@@ -60,5 +60,15 @@ public class GUI_git extends JFrame {
 		});
 		btnNewButton_1.setBounds(137, 81, 142, 23);
 		contentPane.add(btnNewButton_1);
+		
+		JButton btnNewButton_2 = new JButton("Rama Jimena");
+		btnNewButton_2.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Hola desde mi rama");
+			}
+		});
+		btnNewButton_2.setBounds(137, 158, 142, 23);
+		contentPane.add(btnNewButton_2);
+		
 	}
 }
