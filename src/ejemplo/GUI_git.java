@@ -51,5 +51,14 @@ public class GUI_git extends JFrame {
 		});
 		btnNewButton.setBounds(137, 121, 142, 21);
 		contentPane.add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("Mensaje Jimena");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Hola Soy Jimena");
+			}
+		});
+		btnNewButton_1.setBounds(137, 81, 142, 23);
+		contentPane.add(btnNewButton_1);
 	}
 }
