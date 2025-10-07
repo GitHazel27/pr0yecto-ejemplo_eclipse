@@ -36,7 +36,7 @@ public class GUI_git extends JFrame {
 	 */
 	public GUI_git() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 300);
+		setBounds(100, 100, 450, 423);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 
@@ -61,25 +61,34 @@ public class GUI_git extends JFrame {
 		btnNewButton_1.setBounds(137, 81, 142, 23);
 		contentPane.add(btnNewButton_1);
 		
-<<<<<<< HEAD
+
 		JButton btnNewButton_2 = new JButton("Hazel");
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(null, "Hola desde la rama de Haz");
 			}
 		});
-		btnNewButton_2.setBounds(51, 193, 85, 21);
+		btnNewButton_2.setBounds(137, 192, 142, 21);
 		contentPane.add(btnNewButton_2);
-=======
-		JButton btnNewButton_2 = new JButton("Rama Jimena");
+
+		JButton btnNewButton_3 = new JButton("Rama Jimena");
 		btnNewButton_2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(null, "Hola desde mi rama");
 			}
 		});
-		btnNewButton_2.setBounds(137, 158, 142, 23);
-		contentPane.add(btnNewButton_2);
+		btnNewButton_3.setBounds(137, 158, 142, 23);
+		contentPane.add(btnNewButton_3);
 		
->>>>>>> refs/heads/RamaJimena
+		JButton btnNewButton_4 = new JButton("Eclipse Hazel");
+		btnNewButton_4.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				JOptionPane.showMessageDialog(null, "Hola desde mi rama Hazel en eclipse.");
+			}
+		});
+		btnNewButton_4.setBounds(137, 227, 142, 23);
+		contentPane.add(btnNewButton_4);
+		
+
 	}
 }
