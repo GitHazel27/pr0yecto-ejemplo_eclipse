@@ -83,7 +83,7 @@ public class GUI_git extends JFrame {
 		JButton btnNewButton_4 = new JButton("Eclipse Hazel");
 		btnNewButton_4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null, "Hola desde mi rama Hazel en eclipse");
+				JOptionPane.showMessageDialog(null, "Hola desde mi rama Hazel en eclipse.");
 			}
 		});
 		btnNewButton_4.setBounds(137, 227, 142, 23);
